@@ -4,7 +4,7 @@ import aboutData from "./aboutData";
 import SingleAbout from "../Features/singleAbout";
 const AboutSectionTwo = () => {
   return (
-    <section className="py-16 md:py-20 lg:py-28">
+    <section className="py-16 md:py-20 lg:py-28 bg-white">
       <div className="container">
         <div className="-mx-4 flex flex-wrap items-center">
           <div className="wow fadeInUp max-w-[1500px]" data-wow-delay=".2s">
