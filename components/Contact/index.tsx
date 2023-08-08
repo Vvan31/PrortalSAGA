@@ -2,7 +2,7 @@ import NewsLatterBox from "./NewsLatterBox";
 
 const Contact = () => {
   return (
-    <section id="contact" className="overflow-hidden py-16 md:py-20 lg:py-28">
+    <section id="contact" className="overflow-hidden py-16 md:py-20 lg:py-28 bg-dark">
       <div className="container">
         <div className="-mx-4 flex flex-wrap">
           <div className="w-full px-4 lg:w-7/12 xl:w-8/12">
@@ -12,10 +12,10 @@ const Contact = () => {
               "
             >
               <h2 className="mb-3 text-2xl font-bold text-black dark:text-white sm:text-3xl lg:text-2xl xl:text-3xl">
-                Need Help? Open a Ticket
+                Necesitas ayuda? Abre un ticket de soporte.
               </h2>
               <p className="mb-12 text-base font-medium text-body-color">
-                Our support team will get back to you ASAP via email.
+                O contáctanos por correo electrónico o teléfono.
               </p>
               <form>
                 <div className="-mx-4 flex flex-wrap">
@@ -25,7 +25,7 @@ const Contact = () => {
                         htmlFor="name"
                         className="mb-3 block text-sm font-medium text-dark dark:text-white"
                       >
-                        Your Name
+                        Nombre
                       </label>
                       <input
                         type="text"
@@ -40,7 +40,7 @@ const Contact = () => {
                         htmlFor="email"
                         className="mb-3 block text-sm font-medium text-dark dark:text-white"
                       >
-                        Your Email
+                        Correo electrónico
                       </label>
                       <input
                         type="email"
@@ -55,7 +55,7 @@ const Contact = () => {
                         htmlFor="message"
                         className="mb-3 block text-sm font-medium text-dark dark:text-white"
                       >
-                        Your Message
+                        Mensaje
                       </label>
                       <textarea
                         name="message"
@@ -67,7 +67,7 @@ const Contact = () => {
                   </div>
                   <div className="w-full px-4">
                     <button className="rounded-md bg-primary py-4 px-9 text-base font-medium text-white transition duration-300 ease-in-out hover:bg-opacity-80 hover:shadow-signUp">
-                      Submit Ticket
+                      Enviar
                     </button>
                   </div>
                 </div>
@@ -75,7 +75,7 @@ const Contact = () => {
             </div>
           </div>
           <div className="w-full px-4 lg:w-5/12 xl:w-4/12">
-            <NewsLatterBox />
+            {/* <NewsLatterBox /> */}
           </div>
         </div>
       </div>
