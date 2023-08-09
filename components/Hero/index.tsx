@@ -21,14 +21,14 @@ const Hero = () => {
                 height={130}
                 className="w-80"
               />  */}
-               <h1 className="mb-0 text-5xl font-bold leading-tight text-primary dark:text-white sm:text-4xl sm:leading-tight md:text-5xl md:leading-tight">
+               <h1 className="mb-0 text-4xl font-bold leading-tight text-primary sm:text-5xl sm:leading-tight md:text-5xl md:leading-tight">
                 SAGA
                 </h1>
                 <h1 className="mb-5 text-base font-bold leading-tight text-white dark:text-white sm:text-2xl sm:leading-tight md:text-3xl md:leading-tight">
                 Sistema Automatizádo de Gestión y Archivo
                 </h1>
           
-                <p className="mb-12 text-base font-semibold !leading-relaxed text-body-color dark:text-white dark:opacity-90 sm:text-xl md:text-2xl">
+                <p className="mb-12 text-base font-bold !leading-relaxed text-red dark:text-white dark:opacity-90 sm:text-xl md:text-2xl">
                   Red articulada de procesos digitales basada en
                   Inteligencia Artificial que controla la gestión
                   documental y los archivos de las Dependencias.

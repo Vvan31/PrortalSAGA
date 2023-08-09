@@ -29,7 +29,7 @@ const SingleBlog = ({ blog }: { blog: Blog }) => {
               {title}
             </Link>
           </h3>
-          <p className="mb-6 border-b border-body-color border-opacity-30 pb-6 text-base font-medium text-yellow dark:border-white dark:border-opacity-10">
+          <p className="mb-6 border-b border-body-color border-opacity-30 pb-6 text-base font-medium text-dark dark:border-white dark:border-opacity-10">
             {paragraph}
           </p>
           {(author?

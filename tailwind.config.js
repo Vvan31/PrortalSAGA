@@ -16,14 +16,14 @@ module.exports = {
       transparent: "transparent",
       white: "#FFFFFF",
       black: "#050C05",
-      dark: "#5F5F5F",
+      dark: "#6F7271",
       "blue": "#0A0F29",
-      primary: "#9D2449", // Pantone 7420 ROJO CLARO
-      "red" : "#621132", // Pantone 7421 Rojo obscuro
-      yellow: "#B38E5D", //Pantone 456 AMARILLO 
-      "body-color": "#D4C19C", // Pantone 468 amarillo claro
-      "primaryGreen": "#0C231E", // Pantone 627 verde obscuro
-      "green": "#13322B" // Pantone 626 verde claro
+      primary: "#9F2241", // Pantone 7420 ROJO CLARO
+      "red" : "#691C32", // Pantone 7421 Rojo obscuro
+      yellow: "#BC955C", //Pantone 456 AMARILLO 
+      "body-color": "#DDC9A3", // Pantone 468 amarillo claro
+      "primaryGreen": "#10312B", // Pantone 627 verde obscuro
+      "green": "#235B4E" // Pantone 626 verde claro
     },
     screens: {
       xs: "450px",
