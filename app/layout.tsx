@@ -21,12 +21,12 @@ export default function RootLayout({
       <head />
 
       <body className="dark:bg-black">
-        <Providers>
+   
           <Header />
           {children}
           <Footer />
           <ScrollToTop />
-        </Providers>
+        
       </body>
     </html>
   );
