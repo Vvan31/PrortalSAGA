@@ -16,7 +16,7 @@ module.exports = {
       transparent: "transparent",
       white: "#FFFFFF",
       black: "#050C05",
-      dark: "#5F5F5F",
+      dark: "#6F7271",
       "blue": "#0A0F29",
       primary: "#621132", // Pantone 7420 ROJO CLARO
       "red" : "#13322B", // Pantone 7421 Rojo obscuro

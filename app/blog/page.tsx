@@ -4,13 +4,13 @@ import Breadcrumb from "@/components/Common/Breadcrumb";
 
 const Blog = () => {
   return (
-    <>
+    <div className="bd-white">
       <Breadcrumb
         pageName="Blog Grid"
         description="Lorem ipsum dolor sit amet, consectetur adipiscing elit. In varius eros eget sapien consectetur ultrices. Ut quis dapibus libero."
       />
 
-      <section className="pt-[120px] pb-[120px]">
+      <section className="pt-[120px] pb-[120px] bg-primaryGreen">
         <div className="container">
           <div className="-mx-4 flex flex-wrap justify-center">
             {blogData.map((blog) => (
@@ -87,7 +87,7 @@ const Blog = () => {
           </div>
         </div>
       </section>
-    </>
+    </div>
   );
 };
 

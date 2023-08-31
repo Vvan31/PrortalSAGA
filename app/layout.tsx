@@ -21,14 +21,15 @@ export default function RootLayout({
       */}
       
       <head />
-
       <body className={montserrat.className}>
         <Providers>
+
           <Header />
           {children}
           <Footer />
           <ScrollToTop />
           </Providers>
+
       </body>
     </html>
   );
