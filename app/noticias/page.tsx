@@ -11,7 +11,7 @@ const Blog = () => {
         description="Lorem ipsum dolor sit amet, consectetur adipiscing elit. In varius eros eget sapien consectetur ultrices. Ut quis dapibus libero."
       /> */}
 
-      <section className="pt-[120px]  bg-white">
+      <section className="mt-[70px]  bg-white">
       
         {/*   <div className="-mx-4 flex flex-wrap justify-center">
             {blogData.map((blog) => (

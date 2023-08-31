@@ -6,7 +6,7 @@ import Features from "@/components/Features";
 
 const Services = () => {
     return (
-        <div className="my-5 h-full">
+        <div className="my-5 h-full pt-[30px]">
          <Features />
         </div>
       );
