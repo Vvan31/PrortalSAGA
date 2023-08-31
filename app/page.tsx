@@ -10,7 +10,7 @@ import Pricing from "@/components/Pricing";
 import Testimonials from "@/components/Testimonials";
 import Video from "@/components/Video";
 import { Inter } from "@next/font/google";
-
+import Paragraph from "@/components/Hero/paragraph"
 const inter = Inter({ subsets: ["latin"] });
 
 export default function Home() {
@@ -18,6 +18,7 @@ export default function Home() {
     <>
       <ScrollUp />
       <Hero />
+      <Paragraph/>
       <Features />
       <AboutSectionOne />
       <AboutSectionTwo />

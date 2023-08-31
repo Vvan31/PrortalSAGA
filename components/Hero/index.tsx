@@ -44,7 +44,7 @@ const Hero = () => {
               alt="logo"
               width={1280}
               height={350}
-              style={{objectFit:"cover", objectPosition:"right"}}
+              style={{objectFit:"cover", objectPosition:"75%"}}
               className="w-full md:h-[350px] h-[450px]"
             /> 
         </div>

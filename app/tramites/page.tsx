@@ -11,35 +11,54 @@ const Procedure = () => {
         description="Obtenga el trámite digitalizado punta a punta para la subscripción del convenio de la licencia del SAGA"
       /> */}
 
-        <div className="hero min-h-full bg-white pt-[140px] wow fadeInUp "  data-wow-delay="1s" >
-            <div className="hero-content text-center z-10">
-                <div className="max-w-md md:mt-0 mt-0 md:max-w-none md:w-[790px] w-full">
+        <div className="hero min-h-screen bg-white wow fadeInUp "  data-wow-delay="1s" >
+            <div className="hero-content text-left z-10">
+                <div className="max-w-md md:mt-0 mt-0 md:max-w-none w-full">
                     <h1 className="md:text-5xl text-3xl font-bold text-primary">Convenio de Donación de la licencia del SAGA</h1>
-                    <p className="py-6 text-2xl">Realice el trámite digitalizado punta a punta para la subscripción del convenio de donación de la licencia del SAGA</p>
-                   
-                    <button className="btn btn-primary">
-                      <a 
-                        href="https://www.hotwaresc.com/task/project/DespliegueSAGA/public/fd222a73-4e03-4f0d-ab90-040549ade13e"
-                        rel="noopener noreferrer" 
-                        target="_blank"
-                        >
-                        Realizar trámite
-                      </a>
-                      </button>
+                    <p className="py-6 md:text-2xl text-lg">Realice el trámite digitalizado punta a punta para la subscripción del convenio de donación de la licencia del SAGA</p>
+                    <div className="flex w-full flex-col items-center">
+                        <p className="py-6 md:text-xl text-lg text-justify mb-9">En apoyo a todos los sujetos obligados por la LGA y en cumplimiento de lo definido por la Ley Federal de Austeridad Republicana, 
+                        el Archivo General de la Nación ha considerado compartir de forma gratuita el licenciamiento perpetuo e ilimitado del sistema SAGA 
+                        incluyendo su código fuente con lo que se garantizará la independencia tecnológica y autonomía de su institución tal y como se establece en el 
+                        decreto de la Estrategia Digital Nacional vigente.
+                        </p>
+                        <button className="btn btn-primary md:w-1/3 w-1/2">
+                          <a 
+                            href="https://www.hotwaresc.com/task/project/DespliegueSAGA/public/fd222a73-4e03-4f0d-ab90-040549ade13e"
+                            rel="noopener noreferrer" 
+                            target="_blank"
+                            >
+                            Realizar trámite
+                          </a>
+                        </button>
+                    
+                    </div>
+
+                 {/*  <button className="btn btn-primary">
+                    <a 
+                      href="https://www.hotwaresc.com/task/project/DespliegueSAGA/public/fd222a73-4e03-4f0d-ab90-040549ade13e"
+                      rel="noopener noreferrer" 
+                      target="_blank"
+                      >
+                      Realizar trámite
+                    </a>
+                  </button> */}
                 </div>
             </div>
-            <div className="absolute top-0 left-0 right-0 z-1 hidden md:block">
+
+            <div className="absolute top-0 left-0 right-0 z-1 ">
               <Image
                       src="/images/banner.png"
                       alt="logo"
                       width={1280}
                       height={1350}
-                      className="w-full h-[750px]"
+                      style={{objectFit:"cover", objectPosition:"75%"}}
+                      className="w-full h-screen"
                     /> 
-              </div>
+            </div>
         </div>
 
-        <section id="aboutSAGA" className="pt-16 md:pt-30 lg:pt-48 bg-white md:pt-30 lg:pt-48  md:pb-6 lg:pb-28x flex flex-col justify-center items-center w-full">
+    {/*     <section id="aboutSAGA" className="pt-16 md:pt-30 lg:pt-48 bg-white md:pt-30 lg:pt-48  md:pb-6 lg:pb-28x flex flex-col justify-center items-center w-full">
    
             <div className="bg-red w-full mr-0">
               <div className=" flex flex-wrap p-5 w-full">
@@ -60,7 +79,7 @@ const Procedure = () => {
               </div>
             </div>
           
-    </section>
+        </section> */}
        
     </>
   );
