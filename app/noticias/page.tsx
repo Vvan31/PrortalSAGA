@@ -1,18 +1,19 @@
 import SingleBlog from "@/components/Blog/SingleBlog";
 import blogData from "@/components/Blog/blogData";
 import Breadcrumb from "@/components/Common/Breadcrumb";
+import Video from "@/components/Video";
 
 const Blog = () => {
   return (
     <div className="bd-white">
-      <Breadcrumb
+   {/*    <Breadcrumb
         pageName="Blog Grid"
         description="Lorem ipsum dolor sit amet, consectetur adipiscing elit. In varius eros eget sapien consectetur ultrices. Ut quis dapibus libero."
-      />
+      /> */}
 
-      <section className="pt-[120px] pb-[120px] bg-primaryGreen">
-        <div className="container">
-          <div className="-mx-4 flex flex-wrap justify-center">
+      <section className="pt-[120px]  bg-white">
+      
+        {/*   <div className="-mx-4 flex flex-wrap justify-center">
             {blogData.map((blog) => (
               <div
                 key={blog.id}
@@ -22,7 +23,6 @@ const Blog = () => {
               </div>
             ))}
           </div>
-
           <div
             className="wow fadeInUp -mx-4 flex flex-wrap"
             data-wow-delay=".15s"
@@ -84,8 +84,9 @@ const Blog = () => {
                 </li>
               </ul>
             </div>
-          </div>
-        </div>
+          </div> */}
+          <Video/>
+
       </section>
     </div>
   );

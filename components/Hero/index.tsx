@@ -5,7 +5,7 @@ const Hero = () => {
     <>
       <section
         id="home"
-        className="relative bg-white z-10 overflow-hidden pt-[120px] pb-16 md:pt-[50px] md:pb-[20px] xl:pt-[30px] xl:pb-[60px] 2xl:pt-[90px] 2xl:pb-[10px]"
+        className="relative bg-white z-10 overflow-hidden pt-[120px] pb-0 md:pt-[50px] md:pb-[20px] xl:pt-[30px] xl:pb-[60px] 2xl:pt-[90px] 2xl:pb-[10px]"
       >
         <div className="container">
           <div className="-mx-4 flex flex-wrap">
@@ -25,11 +25,11 @@ const Hero = () => {
                 <Image
                 src="/images/logoSAGA.PNG"
                 alt="logo"
-                width={280}
-                height={250}
+                width={380}
+                height={350}
             /> 
                
-                <p className="mb-12 font-extrabold  text-yellow  sm:text-lg md:text-xl">
+                <p className="mb-12 font-bold  text-black md:text-yellow  sm:text-lg md:text-lg">
                   Red articulada de procesos digitales basada en
                   Inteligencia Artificial que controla la gestión
                   documental y los archivos de las Dependencias.
@@ -38,13 +38,14 @@ const Hero = () => {
             </div>
           </div>
         </div>
-        <div className="absolute top-12 right-0 w-full h-[130px] z-[-1]  left-0">
+        <div className="absolute top-12 right-0 w-full h-[130px] z-[-1] left-0">
             <Image
               src="/images/banner.png"
               alt="logo"
               width={1280}
               height={350}
-              className="w-full h-[350px]"
+              style={{objectFit:"cover", objectPosition:"right"}}
+              className="w-full md:h-[350px] h-[450px]"
             /> 
         </div>
      

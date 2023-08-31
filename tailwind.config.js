@@ -15,7 +15,7 @@ module.exports = {
       current: "currentColor",
       transparent: "transparent",
       white: "#FFFFFF",
-      black: "#050C05",
+      black: "#404041",
       dark: "#6F7271",
       "blue": "#0A0F29",
       primary: "#621132", // Pantone 7420 ROJO CLARO

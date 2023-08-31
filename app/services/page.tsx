@@ -6,9 +6,9 @@ import Features from "@/components/Features";
 
 const Services = () => {
     return (
-        <>
+        <div className="my-5 h-full">
          <Features />
-        </>
+        </div>
       );
 };
 

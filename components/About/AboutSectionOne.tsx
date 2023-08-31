@@ -22,7 +22,7 @@ const AboutSectionOne = () => {
       <div className="container">
         <div className="border-b border-body-color/[.15] pb-16  md:pb-20 lg:pb-28">
           <div className="-mx-4 flex flex-wrap items-center">
-            <div className="w-full px-4 lg:w-1/2">
+            <div className="w-full px-4 py-8 lg:w-1/2">
               <SectionTitle
                 title="¿Qué es SAGA?"
                 paragraph="Es un sistema gestión de documental, desarrollado por el instituto para cumplir con las

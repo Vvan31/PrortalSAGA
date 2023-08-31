@@ -10,13 +10,13 @@ const Video = () => {
   const [isOpen, setOpen] = useState(false);
 
   return (
-    <section className="relative z-10 py-16 md:py-20 lg:py-28">
+    <section className="relative z-10 py-6 md:py-20 lg:py-10 bg-white">
       <div className="container">
         <SectionTitle
-          title="We are ready to help"
-          paragraph="There are many variations of passages of Lorem Ipsum available but the majority have suffered alteration in some form."
+          title="Noticias"
+          paragraph=""
           center
-          mb="80px"
+          mb="60px"
         />
 
         <div className="-mx-4 flex flex-wrap">
@@ -53,12 +53,18 @@ const Video = () => {
         autoplay={true}
         start={true}
         isOpen={isOpen}
-        videoId="L61p2uyiMSo"
+        videoId="6Ndm0ChDjCI"
         onClose={() => setOpen(false)}
       />
 
-      <div className="absolute bottom-0 left-0 right-0 z-[-1]">
-        <img src="/images/video/shape.svg" alt="shape" className="w-full" />
+      <div className="absolute bottom-0 left-0 right-0 z-[-1] hidden md:block">
+      <Image
+              src="/images/banner.png"
+              alt="logo"
+              width={1280}
+              height={1350}
+              className="w-full h-[650px]"
+            /> 
       </div>
     </section>
   );

@@ -10,7 +10,7 @@ const menuData: Menu[] = [
   {
     id: 2,
     title: "Qué es SAGA?",
-    path: "/about",
+    path: "/SAGA",
     newTab: false,
   },
   {
@@ -22,19 +22,19 @@ const menuData: Menu[] = [
   {
     id: 4,
     title: "Noticias",
-    path: "/blog",
+    path: "/noticias",
     newTab: false,
   },
   {
     id: 5,
     title: "Contacto",
-    path: "/contact",
+    path: "/contacto",
     newTab: false,
   },
   {
     id: 6,
     title: "Convenio donación SAGA",
-    path: "/procedures",
+    path: "/tramites",
     newTab: false,
   },
 
