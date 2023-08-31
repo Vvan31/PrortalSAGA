@@ -33,7 +33,7 @@ const menuData: Menu[] = [
   },
   {
     id: 6,
-    title: "Convenio donación SAGA",
+    title: "Convenio de donación del SAGA",
     path: "/tramites",
     newTab: false,
   },

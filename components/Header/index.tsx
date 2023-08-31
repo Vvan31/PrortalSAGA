@@ -49,7 +49,7 @@ const Header = () => {
       >
         <div className="w-full flex justify-between items-center lg:mr-10 lg:ml-10 h-20">
           <div className="relative flex items-center w-full">
-            <div className=" flex flex-wrap-nowrap px-5 xl:mr-0 ml-10">
+            <div className=" flex flex-wrap-nowrap px-2 xl:mr-0 ml-10">
               <Link
                 href="/"
               >
@@ -63,13 +63,13 @@ const Header = () => {
             
               </Link>
             </div>
-            <div className="flex w-full items-center justify-between px-4 lg:ml-80">
+            <div className="flex w-full items-center justify-between px-1 md:ml-20 xl:ml-40 2xl:ml-20">
   {/*             <div className=" "> */}
                 <button
                   onClick={navbarToggleHandler}
                   id="navbarToggler"
                   aria-label="Mobile Menu"
-                  className="absolute right-4 top-1/2 block translate-y-[-50%] rounded-lg px-3 py-[6px] ring-primary focus:ring-2 lg:hidden"
+                  className="absolute right-4 top-1/2 block translate-y-[-50%] rounded-lg px-2 py-[6px] ring-primary focus:ring-2 lg:hidden"
                 >
                   <span
                     className={`relative my-1.5 block h-0.5 w-[30px] bg-white transition-all duration-300 dark:bg-white ${
