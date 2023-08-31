@@ -11,11 +11,11 @@ const Procedure = () => {
         description="Obtenga el trámite digitalizado punta a punta para la subscripción del convenio de la licencia del SAGA"
       /> */}
 
-        <div className="hero min-h-screen bg-white wow fadeInUp "  data-wow-delay="1s" >
+        <div className="hero min-h-screen pt-16 lg:pt-0 bg-white wow fadeInUp "  data-wow-delay="1s" >
             <div className="hero-content text-left z-10">
                 <div className="max-w-md md:mt-0 mt-0 md:max-w-none w-full">
                     <h1 className="md:text-5xl text-3xl font-bold text-primary">Convenio de Donación de la licencia del SAGA</h1>
-                    <p className="py-6 md:text-2xl text-lg">Realice el trámite digitalizado punta a punta para la subscripción del convenio de donación de la licencia del SAGA</p>
+                    <p className="py-6 md:text-2xl text-lg font-bold">Realice el trámite digitalizado punta a punta para la subscripción del convenio de donación de la licencia del SAGA</p>
                     <div className="flex w-full flex-col items-center">
                         <p className="py-6 md:text-xl text-lg text-justify mb-9">En apoyo a todos los sujetos obligados por la LGA y en cumplimiento de lo definido por la Ley Federal de Austeridad Republicana, 
                         el Archivo General de la Nación ha considerado compartir de forma gratuita el licenciamiento perpetuo e ilimitado del sistema SAGA 
