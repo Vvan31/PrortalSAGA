@@ -18,12 +18,22 @@ module.exports = {
       black: "#050C05",
       dark: "#5F5F5F",
       "blue": "#0A0F29",
-      primary: "#9D2449", // Pantone 7420 ROJO CLARO
-      "red" : "#621132", // Pantone 7421 Rojo obscuro
+      primary: "#621132", // Pantone 7420 ROJO CLARO
+      "red" : "#13322B", // Pantone 7421 Rojo obscuro
       yellow: "#B38E5D", //Pantone 456 AMARILLO 
       "body-color": "#D4C19C", // Pantone 468 amarillo claro
-      "primaryGreen": "#0C231E", // Pantone 627 verde obscuro
-      "green": "#13322B" // Pantone 626 verde claro
+      "primaryGreen": "#13322B", // Pantone 627 verde obscuro
+      "green": "#285C4D" // Pantone 626 verde claro
+
+   /*  "primary": "#621132",
+      "secondary": "#13322B",
+      "accent": "#9D2449",
+      "neutral": "#B38E5D",
+      "base-100": "#B38E5D", 
+      "info": "#4E232E",
+      "success": "#285C4D", 
+      "warning": "#fbbd23",
+      "error": "#9D2449", */
     },
     screens: {
       xs: "450px",
@@ -58,7 +68,9 @@ module.exports = {
       '2xl': '1.563rem',
       '3xl': '1.953rem',
       '4xl': '2.441rem',
-      '5xl': '12.052rem',
+      '5xl': '4rem',
+      '6xl': '5rem',
+      
     },
     fontFamily:{
       fontFamily: {
@@ -66,5 +78,22 @@ module.exports = {
       }
     }
   },
-  plugins: [],
+  daisyui: {
+    themes: [
+      {
+        mytheme: {
+          "primary": "#621132",
+          "secondary": "#13322B",
+          "accent": "#9D2449",
+          "neutral": "#B38E5D",
+          "base-100": "#B38E5D", 
+          "info": "#4E232E",
+          "success": "#285C4D", 
+          "warning": "#fbbd23",
+          "error": "#9D2449",
+        },
+      },
+    ],
+  },
+  plugins: [require("daisyui")],
 };
