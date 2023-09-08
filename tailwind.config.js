@@ -76,6 +76,13 @@ module.exports = {
       fontFamily: {
         'montserrat': ['Montserrat']
       }
+    },
+    listStyleType: {
+      none: 'none',
+      disc: 'disc',
+      decimal: 'decimal',
+      square: 'square',
+      roman: 'upper-roman',
     }
   },
   daisyui: {

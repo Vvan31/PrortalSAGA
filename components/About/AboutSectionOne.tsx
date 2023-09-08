@@ -26,8 +26,8 @@ const AboutSectionOne = () => {
             <div className="w-full px-4 py-8 lg:w-1/2">
               <SectionTitle
                 title="¿Qué es SAGA?"
-                paragraph="Es un sistema gestión de documental, desarrollado por el instituto para cumplir con las
-                obligaciones y disposiciones en materia archivísticos señalados por:"
+                paragraph="Red articulada de procesos digitales basada en
+                Inteligencia Artificial que controla la gestión documental y los archivos de las Dependencias."
                 mb="44px"
               />
               <div
@@ -36,15 +36,15 @@ const AboutSectionOne = () => {
               >
                 <div className="mx-[-12px] flex flex-wrap">
                   <div className="w-full px-3 sm:w-1/2 lg:w-full xl:w-1/2">
-                    <List text="Ley General de Archivos (DOF 15-06-2018)" />
-                    <List text="Los estándares y buenas prácticas nacionales e internacionales en materia de
-                        clasificación archivística y gestión documental." />
+                    <List text="Desarrollado con código abierto, seguro, flexible y fácil de modificar" />
+                    <List text="Continua mejora de procesos mediante la modelación y construcción
+                    de sistemas con innovadores legos informáticos. " />
                     
                   </div>
 
                   <div className="w-full px-3 sm:w-1/2 lg:w-full xl:w-1/2">
-                    <List text=" Lineamientos para la creación y uso de Sistemas Automatizados de Gestión y
-                      Control de Documentos (DOF 03-07-2015)" />
+                    <List text="Impide que los usuarios operen fuera de lo establecido en el flujo de los
+procesos que operan en la nube de Internet. " />
                     <List text="Lineamientos para la Organización y Conservación de los Archivos
                       (CONAIP/SNT/ACUERDO/EXT13/04/201603)" />
                     

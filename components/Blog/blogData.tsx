@@ -3,9 +3,9 @@ import { Blog } from "@/types/blog";
 const blogData: Blog[] = [
   {
     id: 1,
-    title: "Convento de Churubusco, 30 de mayo de 1930.",
+    title: "¿Qué es SAGA?",
     paragraph:
-      "El exconvento de Churubusco fue construido en el siglo XVI por la orden franciscana de la rama de los dieguinos o franciscanos descalzos.",
+      "Red articulada de procesos digitales basada en Inteligencia Artificial que controla la gestión documental y los archivos de las Dependencias.",
     image: "/images/blog/blog1.jpg",
     author: {
       name: "Samuyl Joshi",
