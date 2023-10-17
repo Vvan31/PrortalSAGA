@@ -24,7 +24,7 @@ const Features = () => {
     <>
       <section
         id="features"
-        className="bg-white dark:bg-dark py-5 md:py-16 lg:py-20"
+        className="bg-white dark:bg-red py-5 md:py-16 lg:py-20"
       >
         <div className="container">
           <SectionTitle
@@ -32,6 +32,8 @@ const Features = () => {
             paragraph=""
             center
             mb="50px"
+            color="white"
+            bold="bold"
           />
 
           <div className="grid grid-cols-1 gap-x-4 gap-y-10 md:grid-cols-2 lg:grid-cols-3">

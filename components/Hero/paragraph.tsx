@@ -38,6 +38,7 @@ const Paragraph = () => {
                 width="1000px"
                 center
                 bold="regular"
+                color="black"
               />
            {/*    <div
                 className="wow fadeInUp mb-12 max-w-[570px] lg:mb-0"

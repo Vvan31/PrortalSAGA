@@ -1,5 +1,6 @@
 import Link from "next/link";
 import Image from "next/image";
+import SAGAlogo from "../../public/images/logoSAGA.png";
 const Hero = () => {
   return (
     <>
@@ -23,7 +24,7 @@ const Hero = () => {
                 </h1>
           */}
                 <Image
-                src="/images/logoSAGA.PNG"
+                src={SAGAlogo}
                 alt="logo"
                 width={380}
                 height={350}

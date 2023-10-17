@@ -9,10 +9,10 @@ const SingleAbout = ({ about }: { about: About }) => {
           {icon}
         </div>
         <div>
-        <h3 className="mb-5 text-xl font-bold text-black dark:text-white sm:text-xl lg:text-xl xl:text-xl">
+        <h3 className="mb-5 text-xl font-bold text-black dark:text-black sm:text-xl lg:text-xl xl:text-xl">
           {title} 
         </h3>
-        <p className="pr-[10px] text-base font-medium text-yellow  dark:text-white  leading-relaxed text-body-color">
+        <p className="pr-[10px] text-base font-medium text-yellow  dark:text-yellow  leading-relaxed text-body-color">
           {paragraph}
         </p>
         </div>
